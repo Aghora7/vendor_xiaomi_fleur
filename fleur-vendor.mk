@@ -6,7 +6,6 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/xiaomi/fleur
 
 PRODUCT_COPY_FILES += \
-    vendor/xiaomi/fleur/proprietary/bin/iwpriv:$(TARGET_COPY_OUT_SYSTEM)/bin/iwpriv \
     vendor/xiaomi/fleur/proprietary/bin/kpoc_charger:$(TARGET_COPY_OUT_SYSTEM)/bin/kpoc_charger \
     vendor/xiaomi/fleur/proprietary/boot/ramdisk/system/etc/init/kpoc_charger.rc:$(TARGET_COPY_OUT_SYSTEM)/boot/ramdisk/system/etc/init/kpoc_charger.rc \
     vendor/xiaomi/fleur/proprietary/etc/init/kpoc_charger.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/kpoc_charger.rc \
@@ -106,8 +105,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/fleur/proprietary/system_ext/lib/libdtaNfaProvider.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libdtaNfaProvider.so \
     vendor/xiaomi/fleur/proprietary/system_ext/lib/libforcedarkimpl.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libforcedarkimpl.so \
     vendor/xiaomi/fleur/proprietary/system_ext/lib/libhwuiinsptrdl.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libhwuiinsptrdl.so \
-    vendor/xiaomi/fleur/proprietary/system_ext/lib/libjpgt.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libjpgt.so \
-    vendor/xiaomi/fleur/proprietary/system_ext/lib/liblept.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/liblept.so \
     vendor/xiaomi/fleur/proprietary/system_ext/lib/libmcv_runtime_usdk.mtk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libmcv_runtime_usdk.mtk.so \
     vendor/xiaomi/fleur/proprietary/system_ext/lib/libmdloggerrecycle.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libmdloggerrecycle.so \
     vendor/xiaomi/fleur/proprietary/system_ext/lib/libmvpu_cic_ci_compiler.mtk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libmvpu_cic_ci_compiler.mtk.so \
@@ -129,7 +126,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/fleur/proprietary/system_ext/lib/libnfc_st_dta_jni.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libnfc_st_dta_jni.so \
     vendor/xiaomi/fleur/proprietary/system_ext/lib/libnir_neon_driver_ndk.mtk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libnir_neon_driver_ndk.mtk.so \
     vendor/xiaomi/fleur/proprietary/system_ext/lib/liboemnetdimpl.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/liboemnetdimpl.so \
-    vendor/xiaomi/fleur/proprietary/system_ext/lib/libpngt.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libpngt.so \
     vendor/xiaomi/fleur/proprietary/system_ext/lib/libstnfc-nci.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libstnfc-nci.so \
     vendor/xiaomi/fleur/proprietary/system_ext/lib/libstnfc_nci_jni.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libstnfc_nci_jni.so \
     vendor/xiaomi/fleur/proprietary/system_ext/lib/libsurfaceflingerinsptr.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libsurfaceflingerinsptr.so \
@@ -179,8 +175,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/fleur/proprietary/system_ext/lib64/libfmjni.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libfmjni.so \
     vendor/xiaomi/fleur/proprietary/system_ext/lib64/libforcedarkimpl.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libforcedarkimpl.so \
     vendor/xiaomi/fleur/proprietary/system_ext/lib64/libhwuiinsptrdl.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libhwuiinsptrdl.so \
-    vendor/xiaomi/fleur/proprietary/system_ext/lib64/libjpgt.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libjpgt.so \
-    vendor/xiaomi/fleur/proprietary/system_ext/lib64/liblept.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/liblept.so \
     vendor/xiaomi/fleur/proprietary/system_ext/lib64/libmcv_runtime_usdk.mtk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libmcv_runtime_usdk.mtk.so \
     vendor/xiaomi/fleur/proprietary/system_ext/lib64/libmdloggerrecycle.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libmdloggerrecycle.so \
     vendor/xiaomi/fleur/proprietary/system_ext/lib64/libmvpu_cic_ci_compiler.mtk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libmvpu_cic_ci_compiler.mtk.so \
@@ -203,7 +197,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/fleur/proprietary/system_ext/lib64/libnir_neon_driver_ndk.mtk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libnir_neon_driver_ndk.mtk.so \
     vendor/xiaomi/fleur/proprietary/system_ext/lib64/liboemnetdimpl.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/liboemnetdimpl.so \
     vendor/xiaomi/fleur/proprietary/system_ext/lib64/libpcap_bak.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libpcap_bak.so \
-    vendor/xiaomi/fleur/proprietary/system_ext/lib64/libpngt.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libpngt.so \
     vendor/xiaomi/fleur/proprietary/system_ext/lib64/libstnfc-nci.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libstnfc-nci.so \
     vendor/xiaomi/fleur/proprietary/system_ext/lib64/libstnfc_nci_jni.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libstnfc_nci_jni.so \
     vendor/xiaomi/fleur/proprietary/system_ext/lib64/libsurfaceflingerinsptr.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libsurfaceflingerinsptr.so \
@@ -239,10 +232,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/fleur/proprietary/system_ext/lib64/vendor.mediatek.hardware.touchll@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.mediatek.hardware.touchll@1.0.so \
     vendor/xiaomi/fleur/proprietary/system_ext/lib64/vendor.mediatek.hardware.videotelephony@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.mediatek.hardware.videotelephony@1.0.so \
     vendor/xiaomi/fleur/proprietary/system_ext/priv-app/FMRadio/lib/arm64/libfmjni.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/priv-app/FMRadio/lib/arm64/libfmjni.so \
-    vendor/xiaomi/fleur/proprietary/system_ext/priv-app/Settings/lib/arm64/libjpgt.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/priv-app/Settings/lib/arm64/libjpgt.so \
-    vendor/xiaomi/fleur/proprietary/system_ext/priv-app/Settings/lib/arm64/liblept.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/priv-app/Settings/lib/arm64/liblept.so \
-    vendor/xiaomi/fleur/proprietary/system_ext/priv-app/Settings/lib/arm64/libpngt.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/priv-app/Settings/lib/arm64/libpngt.so \
-    vendor/xiaomi/fleur/proprietary/system_ext/priv-app/Settings/lib/arm64/libtess.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/priv-app/Settings/lib/arm64/libtess.so \
     vendor/xiaomi/fleur/proprietary/vendor/bin/AgentTest:$(TARGET_COPY_OUT_VENDOR)/bin/AgentTest \
     vendor/xiaomi/fleur/proprietary/vendor/bin/MI_IC:$(TARGET_COPY_OUT_VENDOR)/bin/MI_IC \
     vendor/xiaomi/fleur/proprietary/vendor/bin/MI_RIC:$(TARGET_COPY_OUT_VENDOR)/bin/MI_RIC \
@@ -3411,7 +3400,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/fleur/proprietary/vendor/lib64/vendor.xiaomi.hardware.touchfeature@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.xiaomi.hardware.touchfeature@1.0.so \
     vendor/xiaomi/fleur/proprietary/vendor/lib64/vendor.xiaomi.hardware.vsimapp@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.xiaomi.hardware.vsimapp@1.0.so \
     vendor/xiaomi/fleur/proprietary/vendor/lib64/wechat.beanpod.so:$(TARGET_COPY_OUT_VENDOR)/lib64/wechat.beanpod.so \
-    vendor/xiaomi/fleur/proprietary/vendor/odm_dlkm/etc/NOTICE.xml.gz:$(TARGET_COPY_OUT_VENDOR)/odm_dlkm/etc/NOTICE.xml.gz \
+#    vendor/xiaomi/fleur/proprietary/vendor/odm_dlkm/etc/NOTICE.xml.gz:$(TARGET_COPY_OUT_VENDOR)/odm_dlkm/etc/NOTICE.xml.gz \
     vendor/xiaomi/fleur/proprietary/vendor/odm_dlkm/etc/build.prop:$(TARGET_COPY_OUT_VENDOR)/odm_dlkm/etc/build.prop \
     vendor/xiaomi/fleur/proprietary/vendor/res/images/lcd_test_00.png:$(TARGET_COPY_OUT_VENDOR)/res/images/lcd_test_00.png \
     vendor/xiaomi/fleur/proprietary/vendor/res/images/lcd_test_01.png:$(TARGET_COPY_OUT_VENDOR)/res/images/lcd_test_01.png \
@@ -3444,7 +3433,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/fleur/proprietary/vendor/thh/ta/e5140b3376fa4c63ab18062caab2fb5c.ta:$(TARGET_COPY_OUT_VENDOR)/thh/ta/e5140b3376fa4c63ab18062caab2fb5c.ta \
     vendor/xiaomi/fleur/proprietary/vendor/thh/ta/e97c270ea5c44c58bcd3384a2fa2539e.ta:$(TARGET_COPY_OUT_VENDOR)/thh/ta/e97c270ea5c44c58bcd3384a2fa2539e.ta \
     vendor/xiaomi/fleur/proprietary/vendor/thh/ta/isee_model.json:$(TARGET_COPY_OUT_VENDOR)/thh/ta/isee_model.json \
-    vendor/xiaomi/fleur/proprietary/vendor/vendor_dlkm/etc/NOTICE.xml.gz:$(TARGET_COPY_OUT_VENDOR)/vendor_dlkm/etc/NOTICE.xml.gz \
+ #   vendor/xiaomi/fleur/proprietary/vendor/vendor_dlkm/etc/NOTICE.xml.gz:$(TARGET_COPY_OUT_VENDOR)/vendor_dlkm/etc/NOTICE.xml.gz \
     vendor/xiaomi/fleur/proprietary/vendor/vendor_dlkm/etc/build.prop:$(TARGET_COPY_OUT_VENDOR)/vendor_dlkm/etc/build.prop
 
 PRODUCT_PACKAGES += \

@@ -188,18 +188,6 @@ android_app_import {
 }
 
 android_app_import {
-	name: "MiuiSystemUI",
-	owner: "xiaomi",
-	apk: "proprietary/system_ext/priv-app/MiuiSystemUI/MiuiSystemUI.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-	system_ext_specific: true,
-}
-
-android_app_import {
 	name: "MtkCarrierConfig",
 	owner: "xiaomi",
 	apk: "proprietary/system_ext/priv-app/MtkCarrierConfig/MtkCarrierConfig.apk",
@@ -239,18 +227,6 @@ android_app_import {
 	name: "NetworkDataController",
 	owner: "xiaomi",
 	apk: "proprietary/system_ext/priv-app/NetworkDataController/NetworkDataController.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-	system_ext_specific: true,
-}
-
-android_app_import {
-	name: "Settings",
-	owner: "xiaomi",
-	apk: "proprietary/system_ext/priv-app/Settings/Settings.apk",
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
