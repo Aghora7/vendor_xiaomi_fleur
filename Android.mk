@@ -4,6 +4,6 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),viva)
+ifeq ($(TARGET_DEVICE),fleur)
 
 endif
