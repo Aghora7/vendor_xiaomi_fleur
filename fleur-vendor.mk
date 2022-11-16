@@ -49,7 +49,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/fleur/proprietary/system_ext/etc/permissions/com.android.carrierconfig.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.android.carrierconfig.xml \
     vendor/xiaomi/fleur/proprietary/system_ext/etc/permissions/com.android.emergency.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.android.emergency.xml \
     vendor/xiaomi/fleur/proprietary/system_ext/etc/permissions/com.android.settings.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.android.settings.xml \
-    vendor/xiaomi/fleur/proprietary/system_ext/etc/permissions/com.android.storagemanager.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.android.storagemanager.xml \
     vendor/xiaomi/fleur/proprietary/system_ext/etc/permissions/com.android.systemui.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.android.systemui.xml \
     vendor/xiaomi/fleur/proprietary/system_ext/etc/permissions/com.nxp.mifare.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.nxp.mifare.xml \
     vendor/xiaomi/fleur/proprietary/system_ext/etc/permissions/com.st.android.nfc_extensions.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.st.android.nfc_extensions.xml \
@@ -2932,7 +2931,6 @@ PRODUCT_PACKAGES += \
     MiuiSystemUI \
     MtkCarrierConfig \
     SetupWizard \
-    StorageManager \
     WallpaperCropper \
     com.fingerprints.extension \
     com.st.android.nfc_extensions \
