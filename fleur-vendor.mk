@@ -143,7 +143,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/fleur/proprietary/system_ext/lib64/vendor.mediatek.hardware.power@2.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.mediatek.hardware.power@2.1.so \
     vendor/xiaomi/fleur/proprietary/system_ext/lib64/vendor.mediatek.hardware.videotelephony@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.mediatek.hardware.videotelephony@1.0.so \
     vendor/xiaomi/fleur/proprietary/system_ext/lib64/vendor.mediatek.hardware.vpu@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.mediatek.hardware.vpu@1.0.so \
-    vendor/xiaomi/fleur/proprietary/system_ext/priv-app/FMRadio/lib/arm64/libfmjni.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/priv-app/FMRadio/lib/arm64/libfmjni.so \
     vendor/xiaomi/fleur/proprietary/vendor/bin/MI_IC:$(TARGET_COPY_OUT_VENDOR)/bin/MI_IC \
     vendor/xiaomi/fleur/proprietary/vendor/bin/MI_RIC:$(TARGET_COPY_OUT_VENDOR)/bin/MI_RIC \
     vendor/xiaomi/fleur/proprietary/vendor/bin/STFlashTool:$(TARGET_COPY_OUT_VENDOR)/bin/STFlashTool \
@@ -2930,7 +2929,6 @@ PRODUCT_PACKAGES += \
     FM \
     Nfc_st \
     EmergencyInfo \
-    FMRadio \
     MiuiSystemUI \
     MtkCarrierConfig \
     SetupWizard \
